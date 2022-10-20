@@ -1,4 +1,4 @@
-package se331.rest.dao;
+package se331.rest.entity.dao;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.context.annotation.Profile;
@@ -8,8 +8,6 @@ import org.springframework.data.domain.Pageable;
 import org.springframework.stereotype.Repository;
 import se331.rest.entity.Event;
 import se331.rest.repository.EventRepository;
-
-import java.util.List;
 
 @Profile("db")
 @Repository
